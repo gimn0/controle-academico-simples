@@ -45,5 +45,19 @@ public class Main {
         Professor prof3 = new Professor("Marcia Tonieto");
         prof3.setCursos("Sistemas Distribuídos");
         System.out.println(prof3.cursosToString());
+
+        System.out.println("");
+        // Funcionário 1
+        Funcionario func1 = new Funcionario("Nick Ellis", "Zelador");
+        System.out.println(func1.funcionarioToString());
+
+        // Funcionário 2
+        Funcionario func2 = new Funcionario("Rochelle Coach", "Secretária");
+        System.out.println(func2.funcionarioToString());
+
+        // Funcionário 3
+        Funcionario func3 = new Funcionario("Dallas Hoxton", "Porteiro");
+        System.out.println(func3.funcionarioToString());
+
     }
 }

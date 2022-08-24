@@ -8,6 +8,7 @@ public class Professor {
     private String nome;
     private List<String> cursos = new ArrayList<String>();
 
+    // Constructor
     public Professor(String nome) {
         this.nome = nome;
     }
