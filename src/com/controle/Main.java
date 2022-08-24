@@ -27,5 +27,23 @@ public class Main {
         System.out.println("Nota da AV2: " + aluno2.getNotaAV2());
         System.out.println("Nota da AV3: " + aluno2.getNotaAV3());
         System.out.println(aluno2.mediaToString());
+
+        System.out.println("");
+        // Professor 1
+        Professor prof1 = new Professor("Darielson Araujo");
+        prof1.setCursos("Inteligência Artificial");
+        prof1.setCursos("Desenvolvimento de Sistemas 1");
+        prof1.setCursos("POO 3");
+        System.out.println(prof1.cursosToString());
+
+        // Professor 2
+        Professor prof2 = new Professor("André Barros");
+        prof2.setCursos("Teoria da Computação");
+        System.out.println(prof2.cursosToString());
+
+        // Professor 3
+        Professor prof3 = new Professor("Marcia Tonieto");
+        prof3.setCursos("Sistemas Distribuídos");
+        System.out.println(prof3.cursosToString());
     }
 }
